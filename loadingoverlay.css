@@ -1,0 +1,29 @@
+/*loading-overlay and loading-overlay-spinner*/
+.loading-overlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.loading-overlay > .loading-overlay-spinner > i {
+    font-size: 5em;
+    color: orange;
+    opacity: 1;
+    z-index: 10001;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
