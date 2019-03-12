@@ -1,2 +1,2 @@
 # jbloadingoverlay
-Loading overlay for web application with JQuery and Bootstrap 4
+Loading overlay example for web application with JQuery, fontawesome and Bootstrap 4.
